@@ -10,7 +10,7 @@ body{
 
 .App{
     width: 90%;
-    min-width: 600px;
+    max-width: 600px;
     background: #fff;
     text-align: center;
     border-radius: 10px;
@@ -41,24 +41,35 @@ body{
     
     justify-content: space-between;
 }
-#answer-buttons .btn{
-    text-decoration: none;
-    border: none;
-    outline: none;
+.btn{
+   
+  background: #fff;
+  color: #222;
+  font-weight: 500;
+  width: 100%;
+  border: 1px solid #222;
     padding: 15px 15px;
     margin: 10px 0;
     text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
  
+}
+.btn:hover{
+    background: #222;
+    color: #fff;
 }
 
 .next{
-    display: none;
+   
     padding:10px 30px;
     margin: 15px;
     font-size: 22px;
-    background: #8938ff;
+    background:#001e4d;
     border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
 }
 .next:hover{
-    background: orange;
+    background: #222;
 }
